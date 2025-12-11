@@ -1,0 +1,56 @@
+{
+    "name": "expense-tracker",
+    "displayName": "Expense Tracker",
+    "description": "Track expenses with summary views in VS Code",
+    "version": "1.0.0",
+    "publisher": "JavaeroTechnology",
+    "author": {
+        "name": "Rene Unternaehrer",
+        "email": "reneunti22@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/expense-tracker-vscode"
+    },
+    "license": "MIT",
+    "keywords": [
+        "expense",
+        "tracker",
+        "finance",
+        "budget"
+    ],
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "expenseTracker.addExpense",
+                "title": "Add New Expense"
+            },
+            {
+                "command": "expenseTracker.viewExpenses",
+                "title": "View Expenses"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.7",
+        "@types/vscode": "^1.60.0",
+        "typescript": "^4.9.4"
+    }
+}
