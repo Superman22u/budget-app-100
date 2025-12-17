@@ -2,15 +2,15 @@
     "name": "expense-tracker",
     "displayName": "Expense Tracker",
     "description": "Track expenses with summary views in VS Code",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "JavaeroTechnology",
     "author": {
         "name": "Rene Unternaehrer",
-        "email": "reneunti22@gmail.com"
+        "email": "renesuperman22@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/expense-tracker-vscode"
+        "url": "https://github.com/Superman22u/budget-app-100.git"
     },
     "license": "MIT",
     "keywords": [
